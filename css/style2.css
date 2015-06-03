@@ -1,0 +1,52 @@
+﻿body { padding-top: 68px; font-family: 'calibri', sans-serif; }
+a, a:hover, a:focus { color: #004971; }
+
+
+
+
+
+#mnav { background-color: #333; top: 18px; }
+#mnav .navbar-brand { margin-left: 15px; margin-right: 10px; padding: 1px 0px 0px 0px; }
+#mnav .navbar-nav > li > a { padding-bottom: 12px; padding-top: 17px; color: #004971; }
+#mnav .navbar-right > li:last-child { margin-right: 30px; }
+#mnav .dropdown-menu { border-color: #e7e7e7; }
+#mnav .dropdown-menu > li > a { color: #004971; }
+#mnav + div.conteudo, #mnav + div.container { margin-top: 20px; }
+
+.dropdown-header { white-space: nowrap; }
+
+.modal-dialog { margin-top: 90px; }
+
+.conteudo { padding-left: 30px; padding-right: 30px; margin-left: auto; margin-right: auto; width: 100%; overflow: auto; }
+
+#c_superior { position: fixed; top: 0px; width: 100%; height: 18px; padding-left: 30px; padding-right: 30px; margin-left: auto; margin-right: auto; background-color: #333; z-index: 1050; text-align: right; white-space: nowrap; }
+#c_superior, #c_superior * { font-size: 12px; font-weight: 300; color: #fff; text-decoration: none; }
+#c_superior li { text-align: left; }
+#c_superior strong { font-weight: 400; }
+#c_superior .divider { display: inline-block; width: 40px; }
+#c_superior .glyphicon-arrow-up { color: green;  }
+#c_superior .glyphicon-arrow-down { color: red;  }
+
+.h5_email { color: #666666; }
+
+.bignumber { font-weight: 700; font-size: 24px; color: #666666; white-space: nowrap; }
+.bignumber .glyphicon-arrow-up { color: green; font-size: 85%; }
+.bignumber .glyphicon-arrow-down { color: red; font-size: 85%; }
+.bignumber-label { font-weight: 300; font-size: 15px; color: #666666; white-space: nowrap; }
+
+.input-big { width: 70%; }
+.input-small { width: 50%; }
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus { color: #303030; }
+
+@media (max-width: 768px) {
+    body { padding-top: 50px; }
+
+    #mnav { top: 0px; }
+    #mnav .navbar-brand { margin-left: 15px; }
+
+    .conteudo { padding-left: 15px; padding-right: 15px; }
+
+    #c_superior { display: none; }
+}
+
